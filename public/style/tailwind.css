@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .squarre {
+    @apply absolute w-28 h-28 cursor-pointer;
+  }
+  .container {
+    @apply flex h-svh;
+  }
+  .frontCard {
+    @apply bg-tanjiroCard bg-cover;
+  }
+}
